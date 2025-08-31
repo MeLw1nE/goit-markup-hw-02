@@ -33,7 +33,15 @@ ul {
 .links-li:hover {
   color: #404bbf;
 }
-.links-li:active {
+.links-li1 {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.links-li1:active {
   text-decoration: underline;
   color: #404bbf;
 }
@@ -76,7 +84,9 @@ ul {
   height: 56px;
   cursor: pointer;
 }
-.title-button:hover,
+.title-button:hover {
+  background-color: #404bbf;
+}
 .title-button:active {
   background-color: #404bbf;
 }
