@@ -12,7 +12,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.studio {
+.studio-header {
   color: #2e2f42;
 }
 
@@ -154,7 +154,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.studio {
+.studio-footer {
   color: #f4f4fd;
 }
 .footer-text {
