@@ -23,25 +23,20 @@ ul {
   list-style-type: none;
 }
 
-.links-li {
+.link-li {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.links-li:hover {
+.link-li:hover {
   color: #404bbf;
 }
-.links-li1 {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.link-li:active {
+  color: #404bbf;
 }
-
-.links-li1:active {
+.link-li-item:active {
   text-decoration: underline;
   color: #404bbf;
 }
@@ -55,7 +50,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-link:hover,
+.contacts-link:hover {
+  color: #404bbf;
+}
 .contacts-link:active {
   color: #404bbf;
 }
