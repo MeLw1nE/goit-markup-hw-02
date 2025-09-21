@@ -19,7 +19,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
-  max-width: 100%;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 0;
@@ -42,6 +42,7 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 .studio-header {
   color: #2e2f42;
@@ -58,7 +59,7 @@ ul {
 .link-nav {
   display: flex;
   gap: 40px;
-  padding-left: 76px;
+
   align-items: center;
 }
 .link-li-item {
@@ -82,7 +83,7 @@ ul {
 }
 .contact {
   font-style: normal;
-  padding-right: 156px;
+
   margin-left: auto;
   padding-top: 24px;
   padding-bottom: 24px;
