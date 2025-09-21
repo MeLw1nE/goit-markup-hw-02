@@ -12,6 +12,19 @@
 img {
   display: block;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .header {
   margin: 0;
   max-width: 100%;
@@ -24,13 +37,12 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
   align-items: center;
   padding: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-logo {
   color: #4d5ae5;
@@ -61,6 +73,7 @@ ul {
   align-items: center;
 }
 .link-li-item {
+  display: block;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -83,8 +96,6 @@ ul {
   font-style: normal;
 
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .contact-ul {
   display: flex;
@@ -166,7 +177,6 @@ ul {
 .info-ul {
   display: flex;
   gap: 24px;
-  margin: 0 156px;
   padding: 0;
 }
 
@@ -204,7 +214,6 @@ ul {
 .team-ul {
   display: flex;
   gap: 24px;
-  margin: 0 156px;
 }
 .team-li {
   background-color: #ffffff;
@@ -232,6 +241,7 @@ ul {
 .portfolio {
   padding: 120px 0 120px 0;
 }
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -240,6 +250,7 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 .portfolio-ul {
   display: flex;
@@ -272,9 +283,7 @@ ul {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer .container {
-  margin-left: 156px;
-}
+
 .footer-logo {
   color: #4d5ae5;
   font-size: 18px;
