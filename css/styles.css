@@ -14,17 +14,19 @@ img {
   max-width: 100%;
 }
 .header {
-  margin-top: 0;
-  margin-bottom: 0;
   max-width: 100%;
-  display: flex;
   align-items: start;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-nav {
   display: flex;
+  align-items: center;
 }
 .header-logo {
   color: #4d5ae5;
@@ -34,7 +36,7 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-top: 24px;
+  margin-right: 76px;
 }
 .studio-header {
   color: #2e2f42;
@@ -50,6 +52,7 @@ ul {
   display: flex;
   gap: 40px;
   padding-top: 24px;
+  align-items: center;
 }
 .link-li-item {
   color: #2e2f42;
@@ -57,7 +60,9 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
+
 .link-li-item:hover {
   color: #404bbf;
 }
