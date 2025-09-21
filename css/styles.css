@@ -37,6 +37,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  margin-left: 156px;
 }
 .studio-header {
   color: #2e2f42;
@@ -155,12 +156,12 @@ ul {
 .info-ul {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  margin: 0 156px;
+  padding: 0;
 }
 
 .info-li {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  max-width: 264px;
 }
 
 .info-li-title {
@@ -192,13 +193,12 @@ ul {
 .team-ul {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  margin: 0 156px;
 }
 .team-li {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
-  max-width: 264px;
 }
 .team-con {
   padding: 32px 0;
