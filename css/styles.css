@@ -99,7 +99,6 @@ ul {
 .title {
   background-color: #2e2f42;
   padding: 188px 0;
-  align-items: center;
 }
 
 .title-text {
@@ -110,6 +109,8 @@ ul {
   letter-spacing: 0.02em;
   max-width: 496px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .title-button {
   font-family: "Roboto", sans-serif;
@@ -125,6 +126,7 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
 }
 .title-button:hover {
   background-color: #404bbf;
@@ -155,10 +157,12 @@ ul {
   gap: 24px;
   justify-content: center;
 }
+
 .info-li {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  flex-basis: 264px;
+  max-width: 264px;
 }
+
 .info-li-title {
   font-weight: 500;
   font-size: 20px;
@@ -193,8 +197,8 @@ ul {
 .team-li {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  flex-basis: 264px;
+  flex-basis: calc((100% - 72px) / 4);
+  max-width: 264px;
 }
 .team-con {
   padding: 32px 0;
@@ -214,7 +218,9 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
-
+.portfolio {
+  padding: 120px 0 120px 0;
+}
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -222,12 +228,22 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
+}
+.port-con {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -235,6 +251,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
