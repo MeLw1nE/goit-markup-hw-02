@@ -13,19 +13,26 @@ img {
   display: block;
 }
 .header {
+  margin: 0;
   max-width: 100%;
   align-items: start;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 0;
+  padding-left: 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   color: #4d5ae5;
@@ -35,8 +42,6 @@ img {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 76px;
-  margin-left: 156px;
 }
 .studio-header {
   color: #2e2f42;
@@ -47,11 +52,13 @@ a {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 .link-nav {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
+  padding-left: 76px;
   align-items: center;
 }
 .link-li-item {
@@ -75,6 +82,10 @@ ul {
 }
 .contact {
   font-style: normal;
+  padding-right: 156px;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact-ul {
   display: flex;
@@ -186,6 +197,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 0;
   margin-bottom: 72px;
 }
 .team-ul {
